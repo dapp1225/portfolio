@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ChainFlux is an award-winning AI + Blockchain Infrastructure specializing in modern web design, branding, and digital experiences.">
+    <meta name="keywords" content="AI + Blockchain Infrastructure, web design, branding, digital marketing, animation">
+    <meta name="author" content="ChainFlux AI + Blockchain Infrastructure">
+    <meta property="og:title" content="ChainFlux | Award-Winning AI + Blockchain Infrastructure">
+    <meta property="og:description" content="Modern AI + Blockchain Infrastructure with stunning animations and innovative designs.">
+    <meta property="og:type" content="website">
+    <title>ChainFlux | Award-Winning AI + Blockchain Infrastructure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preload" href="script.js" as="script">
+</head>
+
+<body>
+    <!-- Skip to main content link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="fox-logo">
+                <span class="logo-text">Chain</span>
+                <span class="logo-accent">Flux</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="logo">
+                <a href="#" aria-label="ChainFlux home">
+                    <span class="logo-main">Chain</span><span class="logo-highlight">Flux</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Culture</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#contact" class="nav-link">Connect</a></li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-overlay"></div>
+            <div class="noise-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-tagline">AI + Blockchain Infrastructure</div>
+                <h1 class="hero-title">
+                    <span class="line">
+                        <span class="word" data-delay="0">We</span>
+                        <span class="word" data-delay="1">Engineer</span><span>Scalable</span>
+                    </span>
+                    <span class="line">
+                        <span class="word highlight" data-delay="2">Decentralized</span>
+                        <span class="word" data-delay="3">Systems</span>
+                    </span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="subtitle-line">We build high-performance blockchain systems,</span>
+                    <span class="subtitle-line">AI-powered applications, and resilient backend architectures</span>
+                    <span class="subtitle-line">for companies that operate at scale.</span>
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#work" class="cta-button">
+                        <span class="btn-text">View Our Work</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <span class="btn-text">Get in Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                </div>
+                <div class="hero-image-box" style="
+    border: 3px solid var(--accent-rose);
+                ">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&q=100&auto=format"
+                        alt="Creative wireframe and design process">
+                    <div class="hero-image-overlay"></div>
+                </div>
+                <div class="hero-image-box secondary">
+                    <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&q=100&auto=format"
+                        alt="Ideas becoming reality">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section - Story of the Fox -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">
+                    <span class="title-line">Story of</span>
+                    <span class="title-line highlight">the Fox</span>
+                </h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">
+                        We operate at the intersection of <span class="text-highlight">AI</span> and 
+                        <span class="text-highlight">blockchain infrastructure</span>.
+                        </p>
+                        
+                        <p>
+                        Our team designs and builds systems where performance, security, and scale are not optional.
+                        From smart contract architecture to distributed backend systems and AI-driven platforms,
+                        we focus on solving technically hard problems with clean, production-grade solutions.
+                        </p>
+                        
+                        <p>
+                        We don’t build demos. We build systems that handle real users, real transactions,
+                        and real-world complexity.
+                    </p>
+                    <div class="stats-grid" data-animate>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Campaigns Delivered</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="36">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-label">Awards Won</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper" data-animate>
+                        <img src="assets/images/COO_LeadEngineer.png" alt="COO_LeadEngineer">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-bg">
+            <div class="parallax-shape shape-circle"></div>
+            <div class="parallax-shape shape-square"></div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="clients-header">
+                <span class="section-tag">Trusted By</span>
+                <p>Leading brands across industries</p>
+            </div>
+            <div class="clients-logos">
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                </div>
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                </div>
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+                </div>
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+                </div>
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix">
+                </div>
+                <div class="client-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Tesla">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">
+                    <span class="title-line">Our</span>
+                    <span class="title-line highlight">Capabilities</span>
+                </h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=100&auto=format" loading="lazy"
+                            alt="Brand Strategy">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">Blockchain Systems</h3>
+                    <p class="service-desc">Design and development of high-performance smart contracts and decentralized systems 
+                        across EVM, Solana, and emerging ecosystems.</p>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=100&auto=format" loading="lazy"
+                            alt="Digital Marketing">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">AI Integration</h3>
+                    <p class="service-desc">Production-ready AI systems including LLM integrations, automation pipelines, 
+                        and intelligent backend services.</p>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=100&auto=format" loading="lazy"
+                            alt="Content Creation">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3 class="service-title">Backend Engineering</h3>
+                    <p class="service-desc">Scalable backend architecture built with Go, Rust, and modern distributed systems design.
+                    </p>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Work/Portfolio Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">
+                    <span class="title-line">What We’ve</span>
+                    <span class="title-line highlight">Built</span>
+                </h2>
+            </div>
+            <div class="work-grid">
+                <div class="work-item large" data-animate>
+                    <div class="work-image">
+                        <img src="assets/images/img_blockchain_system.png" alt="Blockchain System">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+                            <span class="work-category">Blockchain Infrastructure</span>
+                            <h3 class="work-title">Multi-Chain Wallet Architecture</h3>
+                            <p class="work-desc">Secure, modular wallet infrastructure supporting EVM, Solana, and cross-chain systems 
+                                with advanced key management and transaction integrity.</p>
+                            <a href="#" class="work-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-animate>
+                    <div class="work-image">
+                        <img src="assets/images/img_ai_trading.png" alt="ai_trading">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+                            <span class="work-category">AI Systems</span>
+                            <h3 class="work-title">AI Trading Intelligence Platform</h3>
+                            <p class="work-desc">Real-time signal generation and analytics powered by AI-driven data pipelines.</p>
+                            <a href="#" class="work-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-animate>
+                    <div class="work-image">
+                        <img src="assets/images/img_backend_systems.png" alt="backend_systems">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+                            <span class="work-category">Backend Systems</span>
+                            <h3 class="work-title">High-Throughput API Infrastructure</h3>
+                            <p class="work-desc">Distributed backend handling millions of requests with low latency and fault tolerance.</p>
+                            <a href="#" class="work-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-animate>
+                    <div class="work-image">
+                        <img src="assets/images/img_transaction_systems.png" alt="transaction_systems">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+                            <span class="work-category">Transaction Systems</span>
+                            <h3 class="work-title">Payment & Execution Engine</h3>
+                            <p class="work-desc">Low-latency execution layer for secure transactions and financial operations at scale.</p>
+                            <a href="#" class="work-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-animate>
+                    <div class="work-image">
+                        <img src="assets/images/img_data.png" alt="data">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-content">
+                            <span class="work-category">Data & Observability</span>
+                            <h3 class="work-title">Real-Time Analytics Engine</h3>
+                            <p class="work-desc">Streaming data pipelines with live metrics, monitoring, and decision-ready insights.</p>
+                            <a href="#" class="work-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-cta">
+                <a href="#" class="cta-button secondary">
+                    <span class="btn-text">View All Work</span>
+                    <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Leadership</span>
+                <h2 class="section-title">
+                    <span class="title-line">Founding</span>
+                    <span class="title-line highlight">Team</span>
+                </h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-animate>
+                    <div class="member-image">
+                        <img src="assets/images/CEO.jpg" alt="CEO">
+                    </div>
+                    <div class="member-info">
+                        <h4 class="member-name">Emily Parker</h4>
+                        <span class="member-role">Co-Founder & CEO</span>
+                        <div class="member-social">
+                            <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member" data-animate>
+                    <div class="member-image">
+                        <img src="assets/images/COO.png" alt="COO">
+                    </div>
+                    <div class="member-info">
+                        <h4 class="member-name">Madison Reed</h4>
+                        <span class="member-role">Co-Founder & COO</span>
+                        <div class="member-social">
+                            <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member" data-animate>
+                    <div class="member-image">
+                        <img src="assets/images/lead_blockchain.png" alt="lead_blockchain">
+                    </div>
+                    <div class="member-info">
+                        <h4 class="member-name">Masayoshi Yamada</h4>
+                        <span class="member-role">Lead Blockchain Engineer</span>
+                        <div class="member-social">
+                            <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member" data-animate>
+                    <div class="member-image">
+                        <img src="assets/images/ai_engineer.jpg" alt="ai_engineer">
+                    </div>
+                    <div class="member-info">
+                        <h4 class="member-name">Noah Chen</h4>
+                        <span class="member-role">AI Systems Engineer</span>
+                        <div class="member-social">
+                            <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">
+                    <span class="title-line">Engineering</span>
+                    <span class="title-line highlight">Milestones</span>
+                </h2>
+            </div>
+            <div class="awards-marquee">
+                <div class="marquee-track">
+                    <div class="award-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>10M+ Transactions Processed</span>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-award"></i>
+                        <span>99.99% System Uptime</span>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-star"></i>
+                        <span>Multi-Chain (EVM + Solana)</span>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-medal"></i>
+                        <span>AI-Driven Infrastructure</span>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-gem"></i>
+                        <span>Webby Winner</span>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Global Node Distribution</span>
+                    </div>                   
+                </div>
+            </div>
+            <div class="news-grid">
+                <div class="news-card" data-animate>
+                    <div class="news-image">
+                        <img src="assets/images/milestone_multiwallet.png" alt="milestone_multiwallet">
+                    </div>
+                    <div class="news-date">Feb 2026</div>
+                    <h3 class="news-title">Multi-Chain Wallet System Deployed</h3>
+                    <p class="news-excerpt">Successfully launched a secure multi-chain wallet supporting EVM and Solana networks,
+                        handling high-volume transactions with advanced key management.</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" data-animate>
+                    <div class="news-image">
+                        <img src="assets/images/milestone_ai.png" alt="milestone_ai">
+                    </div>
+                    <div class="news-date">Nov 2025</div>
+                    <h3 class="news-title">AI Trading Infrastructure Released</h3>
+                    <p class="news-excerpt">Deployed a real-time AI-powered analytics engine processing live market data 
+                        and generating actionable trading insights at scale.</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" data-animate>
+                    <div class="news-image">
+                        <img src="assets/images/milestone_backend.png" alt="milestone_backend">
+                    </div>
+                    <div class="news-date">Oct 2025</div>
+                    <h3 class="news-title">High-Performance Backend Scaling</h3>
+                    <p class="news-excerpt">Achieved sub-100ms latency across distributed backend systems handling millions 
+                        of API requests with fault-tolerant architecture.</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-tag">Get in Touch</span>
+                        <h2 class="section-title">
+                            <span class="title-line">Let's build</span>
+                            <span class="title-line highlight">Something Real</span>
+                        </h2>
+                    </div>
+                    <p class="contact-desc">We work with teams building serious products. If you're developing in blockchain, AI, or scalable systems - let's talk!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:hello@ChainFlux.in">hello@chain-flux.org</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="">+1 239 832 3107</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>United States (Remote)</span>
+                        </div>
+                    </div>
+                    <div class="office-locations">
+                        <h4>Our Offices</h4>
+                        <div class="locations-grid">
+                            <div class="location">
+                                <strong>Chicago</strong>
+                                <span>Headquarters</span>
+                            </div>
+                            <div class="location">
+                                <strong>San Francisco</strong>
+                                <span>Engineering</span>
+                            </div>
+                            <div class="location">
+                                <strong>New York</strong>
+                                <span>Operations</span>
+                            </div>
+                            <div class="location">
+                                <strong>Remote</strong>
+                                <span>Global Team</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="social-links">
+                        <a href="https://instagram.com/ChainFlux" target="_blank" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/ChainFlux" target="_blank" class="social-link"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://linkedin.com/company/ChainFlux" target="_blank" class="social-link"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/ChainFlux" target="_blank" class="social-link"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com/ChainFlux" target="_blank" class="social-link"><i
+                                class="fab fa-youtube"></i></a>
+                    </div> -->
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Work Email</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="company" name="company" required>
+                                <label for="company">Company Name</label>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone">
+                                <label for="phone">Phone (Optional)</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected></option>
+                                <option value="branding">Brand Strategy & Identity</option>
+                                <option value="digital">Digital Marketing</option>
+                                <option value="content">Content & Video Production</option>
+                                <option value="web">Web & App Development</option>
+                                <option value="social">Social Media Management</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="service">What are you looking for?</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Tell us about your project</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-main">Chain</span><span class="logo-highlight">Flux</span>
+                    </div>
+                    <p class="footer-tagline">We build scalable systems at the intersection of AI and blockchain.
+                        From smart contracts to distributed backend infrastructure,
+                        our focus is performance, reliability, and real-world deployment.</p>
+                    <div class="footer-certifications">
+                        <span>Blockchain</span>
+                        <span>AI Systems</span>
+                        <span>Distributed Infra</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Blockchain Development</a></li>
+                            <li><a href="#">Smart Contracts</a></li>
+                            <li><a href="#">AI Integration</a></li>
+                            <li><a href="#">Backend Systems</a></li>
+                            <li><a href="#">Full Stack Apps</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://instagram.com/ChainFlux" target="_blank">Instagram</a></li>
+                            <li><a href="https://linkedin.com/company/ChainFlux" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://twitter.com/ChainFlux" target="_blank">Twitter</a></li>
+                            <li><a href="https://youtube.com/ChainFlux" target="_blank">YouTube</a></li>
+                            <li><a href="https://behance.net/ChainFlux" target="_blank">Behance</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ChainFlux. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
